@@ -6,12 +6,21 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	list-style: none;
+	justify-content: center;
+}
+
+@media only screen and (min-width: 1024px) {
+	.movies-grid-list {
+		justify-content: flex-start;
+	}
 }
 
 .movies-grid li {
 	margin: 10px;
 	background: white;
 	transition: 0.2s transform;
+	width: 182px;
+	border-radius: 5px;
 }
 
 .movies-grid li:hover {
