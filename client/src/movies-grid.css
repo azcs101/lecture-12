@@ -1,0 +1,27 @@
+.movies-grid {
+}
+
+.movies-grid-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.movies-grid li {
+	margin: 10px;
+	background: white;
+	transition: 0.2s transform;
+}
+
+.movies-grid li:hover {
+	transform: scale(1.05);
+}
+
+.movies-grid h4 {
+	display: inline;
+}
+
+.movies-grid-item-content {
+	padding: 10px;
+}
