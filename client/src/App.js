@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import Loader from './Loader';
 import MoviesGrid from './MoviesGrid';
 
 const data = [
@@ -22,7 +21,9 @@ class App extends Component {
 
 	render() {
 		return (
-            <MoviesGrid data={data} />
+            <div>
+                <MoviesGrid data={data} />
+            </div>
 		);
 	}
 }
